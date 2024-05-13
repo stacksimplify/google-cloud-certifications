@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: myapp1-daemonset
+  namespace: default
+  labels:
+    app: myapp
+spec:  
+  selector:
+    matchLabels:
+      app: myapp
+  template:
+    metadata:
+      labels:
+        app: myapp
+    spec:
+      containers:
+      - name: myapp-container
+        image: ghcr.io/stacksimplify/kubenginx:1.0.0

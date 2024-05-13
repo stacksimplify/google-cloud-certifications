@@ -1,0 +1,5 @@
+title: "Custom Compute Instance Delete Role 102"
+description: "My custom role used for deletion of Compoute Instance 101"
+stage: "ALPHA"
+includedPermissions:
+- compute.instances.delete

@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  # Unique key of the Job instance
+  name: job1
+spec:
+  template:
+    metadata:
+      name: job1
+    spec:
+      containers:
+      - name: job1
+        image: alpine
+        # In Unix-like systems, including Linux, an exit status code of 0 indicates success, while a non-zero exit status code (usually 1) indicates failure or an error condition
+        command: ['sh', '-c', 'echo Kubernetes Jobs Demo - backoffLimit Test ; exit 1']
+      # Do not restart containers after they exit
+      restartPolicy: Never
+  # backoffLimit: Number of retries before marking as failed.
+  backoffLimit: 4 # Default value is 6

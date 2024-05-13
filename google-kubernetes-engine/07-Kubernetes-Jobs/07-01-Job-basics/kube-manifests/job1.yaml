@@ -1,0 +1,16 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  # Unique key of the Job instance
+  name: job1
+spec:
+  template:
+    metadata:
+      name: job1
+    spec:
+      containers:
+      - name: job1
+        image: alpine
+        command: ['sh', '-c', 'echo Kubernetes Jobs Basics Demo ; sleep 30']
+      # Do not restart containers after they exit
+      restartPolicy: Never

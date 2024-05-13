@@ -1,0 +1,11 @@
+bindings:
+- role: roles/compute.viewer
+  members:
+  - user:gcpuser08@gmail.com
+  condition:
+    expression: request.time.getDayOfWeek("Asia/Calcutta") == 0
+    title: access-on-a-day
+- role: roles/compute.admin
+  members:
+  - group:mygroup1@stacksimplify.com
+  - domain:stacksimplify.com

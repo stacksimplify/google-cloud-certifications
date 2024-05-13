@@ -1,0 +1,22 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  # Unique key of the Job instance
+  name: job1
+spec:
+  template:
+    metadata:
+      name: job1
+    spec:
+      containers:
+      - name: job1
+        image: alpine
+        command: ['sh', '-c', 'echo Kubernetes Jobs Demo - Job Completions and Parallelism Test ; sleep 20']
+      # Do not restart containers after they exit
+      restartPolicy: Never
+  # backoffLimit: Number of retries before marking as failed.
+  backoffLimit: 4 # Default value is 6
+  # completions: Specify how many Pods must successfully complete for job to be considered complete.
+  completions: 4
+  # parallelism: Specifies the maximum desired number of Pods a Job should run concurrently at any given time.
+  parallelism: 2

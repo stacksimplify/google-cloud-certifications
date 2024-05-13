@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment  
+metadata: 
+  name: mylinuxapp-deployment
+spec: 
+  replicas: 3
+  selector: 
+    matchLabels: 
+      app: mylinuxapp
+  template:
+    metadata: 
+      name: mylinuxapp-pod
+      labels:
+        app: mylinuxapp 
+    spec:
+      # To schedule pods on based on NodeSelectors     
+      nodeSelector:
+        cloud.google.com/gke-nodepool: linuxapps-nodepool  
+      containers: 
+        - name: mylinuxapp-container
+          image: ghcr.io/stacksimplify/kubenginx:1.0.0
+          ports: 
+            - containerPort: 80 

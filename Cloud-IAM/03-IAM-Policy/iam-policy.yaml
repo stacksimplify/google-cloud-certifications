@@ -1,0 +1,9 @@
+bindings:
+- role: roles/storage.admin
+  members:
+  - user:gcpuser08@gmail.com
+  - serviceAccount:mysvc103@gcplearn9.iam.gserviceaccount.com
+- role: roles/compute.admin
+  members:
+  - group:mygroup1@stacksimplify.com
+  - domain:stacksimplify.com

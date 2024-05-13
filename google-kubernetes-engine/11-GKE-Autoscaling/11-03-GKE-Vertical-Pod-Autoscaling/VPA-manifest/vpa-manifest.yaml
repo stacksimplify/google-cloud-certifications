@@ -1,0 +1,26 @@
+apiVersion: autoscaling.k8s.io/v1
+kind: VerticalPodAutoscaler
+metadata:
+  name: myapp1-deployment
+  namespace: default
+  clusterName: standard-public-cluster-1
+spec:
+  targetRef:
+    kind: Deployment
+    name: myapp1-deployment
+    apiVersion: apps/v1
+  updatePolicy:
+    updateMode: Auto
+  resourcePolicy:
+    containerPolicies:
+      - containerName: myapp1-container
+        mode: Auto
+        controlledResources:
+          - cpu
+          - memory
+        minAllowed:
+          cpu: 25m
+          memory: 50Mi
+        maxAllowed:
+          cpu: 100m
+          memory: 100Mi
