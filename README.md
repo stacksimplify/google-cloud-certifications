@@ -126,17 +126,17 @@
 12. Firewall Policies
 
 ## Cloud Load Balancing - 11 Practical Demos
-Regional Managed Instance Groups
-Global HTTP Load Balancer
-Global HTTPS Load Balancer (Self-signed SSL)
-Global HTTPS Load Balancer (Google-managed SSL)
-Global TCP Proxy Load Balancer
-Global SSL Proxy Load Balancer
-Zonal Managed Instance Groups
-Regional HTTP Load Balancer
-Regional HTTP Internal Load Balancer
-Regional TCP Proxy Load Balancer
-Regional TCP Pass-through Load Balancer
+01. Regional Managed Instance Groups
+02. Global HTTP Load Balancer
+03. Global HTTPS Load Balancer (Self-signed SSL)
+04. Global HTTPS Load Balancer (Google-managed SSL)
+05. Global TCP Proxy Load Balancer
+06. Global SSL Proxy Load Balancer
+07. Zonal Managed Instance Groups
+08. Regional HTTP Load Balancer
+09. Regional HTTP Internal Load Balancer
+10. Regional TCP Proxy Load Balancer
+11. Regional TCP Pass-through Load Balancer
 
 ## Cloud Run and Cloud Functions - 5 Practical Demos
 01. Cloud Run Services
