@@ -243,5 +243,3 @@ Regional TCP Pass-through Load Balancer
 
 # [Helm Masterclass: 50 Practical Demos for Kubernetes DevOps](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
 [![Image](images/helm-highest-rated.png "Helm Masterclass: 50 Practical Demos for Kubernetes DevOps")](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
-
-
