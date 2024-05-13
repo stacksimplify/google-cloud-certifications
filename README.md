@@ -3,8 +3,7 @@
 
 ## [Course Details](https://links.stacksimplify.com/gcp-associate-cloud-engineer-google-certification)
 - **Title:** [GCP Associate Cloud Engineer Google Certification -150 Demos](https://links.stacksimplify.com/gcp-associate-cloud-engineer-certification)
-- **Sub Title:** Compute Engine, Kubernetes Engine, VPC, Load Balancing, IAM, Logging, Monitoring, Cloud Run, Cloud Functions, Databases
-120 chars
+- **Sub Title:** Start your Google Cloud Journey with 150 practical demos. Google Cloud Associate Cloud Engineer certification - GCP ACE
 
 ## [Course Modules](https://links.stacksimplify.com/https://links.stacksimplify.com/gcp-associate-cloud-engineer-google-certification)
 01. Compute Engine - 26 Demos
