@@ -1,6 +1,7 @@
 # Cloud Marketplace and Cloud Deployment Manager
 
 ## Step-01: Introduction
+- Deploy wordpress using Cloud Marketplace
 
 ## Step-02: Explore Cloud Marketplace
 - Browse the Cloud Marketplace catalog and viewing solution details
