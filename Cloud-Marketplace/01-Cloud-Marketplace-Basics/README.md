@@ -7,11 +7,11 @@
 - Browse the Cloud Marketplace catalog and viewing solution details
 
 ## Step-03: Deploy Wordpress from Cloud Marketplace
-- Go to Cloud Marketplace -> Wordpress -> Click on **LAUNCH**
-- Deployment name: wordpress-1
-- Zone: us-central1-a
-- Machine Type: LEAVE TO DEFAULTS
-- Administrator email address: YOUR EMAIL ID 
+- Go to Cloud Marketplace -> Wordpress (WordPress Multisite Certified by Bitnami and Automattic) -> Click on **LAUNCH**
+- **Deployment name:** wordpress-1
+- **Zone:** us-central1-a
+- **Machine Type:** LEAVE TO DEFAULTS
+- **Administrator email address:** YOUR EMAIL ID 
 - REST ALL LEAVE TO DEFAULTS
 - Click on **DEPLOY**
 
