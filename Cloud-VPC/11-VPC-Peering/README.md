@@ -29,7 +29,7 @@
 - **Region:** us-central1
 - **Purpose:** None
 - **IP stack type:** IPv4(single-stack)
-- **IP Subnet:** 10.0.1.0/24
+- **IP Subnet:** 10.1.0.0/16
 - REST ALL LEAVE TO DEFAULT
 - Click on **ADD**
 
@@ -55,7 +55,7 @@
 - **Region:** us-central1
 - **Purpose:** None
 - **IP stack type:** IPv4(single-stack)
-- **IP Subnet:** 10.0.121.0/24
+- **IP Subnet:** 10.8.0.0/16
 - REST ALL LEAVE TO DEFAULT
 - Click on **ADD**
 
