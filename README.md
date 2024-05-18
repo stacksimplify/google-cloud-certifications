@@ -1,6 +1,6 @@
 # [GCP Associate Cloud Engineer Google Certification -150 Demos](https://links.stacksimplify.com/gcp-associate-cloud-engineer-google-certification)
 
-[![Image](gcp-ace-1.png "GCP Associate Cloud Engineer Google Certification -150 Demos")](https://links.stacksimplify.com/gcp-associate-cloud-engineer-google-certification)
+[![Image](gcp-ace-2.png "GCP Associate Cloud Engineer Google Certification -150 Demos")](https://links.stacksimplify.com/gcp-associate-cloud-engineer-google-certification)
 
 ## [Course Details](https://links.stacksimplify.com/gcp-associate-cloud-engineer-google-certification)
 - **Title:** [GCP Associate Cloud Engineer Google Certification -150 Demos](https://links.stacksimplify.com/gcp-associate-cloud-engineer-certification)
