@@ -1,0 +1,122 @@
+auditConfigs:
+- auditLogConfigs:
+  - logType: ADMIN_READ
+  - logType: DATA_READ
+  service: compute.googleapis.com
+- auditLogConfigs:
+  - logType: ADMIN_READ
+  - logType: DATA_READ
+  - logType: DATA_WRITE
+  service: cloudsql.googleapis.com
+bindings:
+- members:
+  - serviceAccount:service-899156651629@gcp-sa-alloydb.iam.gserviceaccount.com
+  role: roles/alloydb.serviceAgent
+- members:
+  - serviceAccount:service-899156651629@gcp-sa-artifactregistry.iam.gserviceaccount.com
+  role: roles/artifactregistry.serviceAgent
+- members:
+  - serviceAccount:899156651629@cloudbuild.gserviceaccount.com
+  role: roles/cloudbuild.builds.builder
+- members:
+  - serviceAccount:service-899156651629@gcp-sa-cloudbuild.iam.gserviceaccount.com
+  role: roles/cloudbuild.serviceAgent
+- members:
+  - serviceAccount:service-899156651629@gcf-admin-robot.iam.gserviceaccount.com
+  role: roles/cloudfunctions.serviceAgent
+- members:
+  - serviceAccount:service-899156651629@gcp-sa-cloudkms.iam.gserviceaccount.com
+  role: roles/cloudkms.serviceAgent
+- members:
+  - serviceAccount:service-899156651629@gcp-sa-cloudscheduler.iam.gserviceaccount.com
+  role: roles/cloudscheduler.serviceAgent
+- members:
+  - deleted:serviceAccount:mycomputeadmin@gcplearn9.iam.gserviceaccount.com?uid=106812139112940550947
+  role: roles/compute.admin
+- members:
+  - serviceAccount:service-899156651629@compute-system.iam.gserviceaccount.com
+  role: roles/compute.serviceAgent
+- members:
+  - user:gcpuser08@gmail.com
+  role: roles/compute.viewer
+- members:
+  - serviceAccount:service-899156651629@container-engine-robot.iam.gserviceaccount.com
+  role: roles/container.serviceAgent
+- members:
+  - serviceAccount:service-899156651629@containerregistry.iam.gserviceaccount.com
+  role: roles/containerregistry.ServiceAgent
+- members:
+  - serviceAccount:service-899156651629@dataflow-service-producer-prod.iam.gserviceaccount.com
+  role: roles/dataflow.serviceAgent
+- members:
+  - serviceAccount:service-899156651629@gcp-sa-datapipelines.iam.gserviceaccount.com
+  role: roles/datapipelines.serviceAgent
+- members:
+  - serviceAccount:service-899156651629@dataproc-accounts.iam.gserviceaccount.com
+  role: roles/dataproc.serviceAgent
+- members:
+  - serviceAccount:899156651629-compute@developer.gserviceaccount.com
+  - serviceAccount:899156651629@cloudservices.gserviceaccount.com
+  - serviceAccount:gcplearn9@appspot.gserviceaccount.com
+  role: roles/editor
+- members:
+  - serviceAccount:899156651629-compute@developer.gserviceaccount.com
+  role: roles/eventarc.eventReceiver
+- members:
+  - serviceAccount:service-899156651629@gcp-sa-eventarc.iam.gserviceaccount.com
+  role: roles/eventarc.serviceAgent
+- members:
+  - serviceAccount:service-899156651629@firebase-rules.iam.gserviceaccount.com
+  role: roles/firebaserules.system
+- members:
+  - serviceAccount:service-899156651629@gcp-sa-firestore.iam.gserviceaccount.com
+  role: roles/firestore.serviceAgent
+- members:
+  - serviceAccount:service-899156651629@gcp-sa-pubsub.iam.gserviceaccount.com
+  - user:gcpuser08@gmail.com
+  role: roles/iam.serviceAccountTokenCreator
+- members:
+  - deleted:serviceAccount:mycomputeadmin@gcplearn9.iam.gserviceaccount.com?uid=106812139112940550947
+  - deleted:serviceAccount:mystorageadmin101@gcplearn9.iam.gserviceaccount.com?uid=117872685110829346837
+  role: roles/iam.serviceAccountUser
+- members:
+  - serviceAccount:service-899156651629@gcp-sa-logging.iam.gserviceaccount.com
+  role: roles/logging.serviceAgent
+- members:
+  - serviceAccount:service-899156651629@gcp-sa-monitoring-notification.iam.gserviceaccount.com
+  role: roles/monitoring.notificationServiceAgent
+- members:
+  - serviceAccount:service-899156651629@gcp-sa-networkconnectivity.iam.gserviceaccount.com
+  role: roles/networkconnectivity.serviceAgent
+- members:
+  - serviceAccount:service-899156651629@gcp-sa-networkmanagement.iam.gserviceaccount.com
+  role: roles/networkmanagement.serviceAgent
+- members:
+  - serviceAccount:service-899156651629@gcp-sa-osconfig.iam.gserviceaccount.com
+  role: roles/osconfig.serviceAgent
+- members:
+  - user:dkalyanreddy@gmail.com
+  role: roles/owner
+- members:
+  - serviceAccount:service-899156651629@gs-project-accounts.iam.gserviceaccount.com
+  role: roles/pubsub.publisher
+- members:
+  - serviceAccount:service-899156651629@gcp-sa-pubsub.iam.gserviceaccount.com
+  role: roles/pubsub.serviceAgent
+- members:
+  - serviceAccount:service-899156651629@serverless-robot-prod.iam.gserviceaccount.com
+  role: roles/run.serviceAgent
+- members:
+  - serviceAccount:service-899156651629@service-networking.iam.gserviceaccount.com
+  role: roles/servicenetworking.serviceAgent
+- members:
+  - deleted:serviceAccount:mysa601@gcplearn9.iam.gserviceaccount.com?uid=111868373916896332400
+  - deleted:serviceAccount:mysa901@gcplearn9.iam.gserviceaccount.com?uid=112154920787413060386
+  - deleted:serviceAccount:mysa902@gcplearn9.iam.gserviceaccount.com?uid=118165526544977005113
+  - deleted:serviceAccount:mystorageadmin101@gcplearn9.iam.gserviceaccount.com?uid=117872685110829346837
+  role: roles/storage.admin
+- members:
+  - deleted:serviceAccount:limited-access-sa@gcplearn9.iam.gserviceaccount.com?uid=109608421459282648891
+  role: roles/viewer
+etag: BwYZVCbxMVQ=
+version: 1
