@@ -3,10 +3,10 @@
 [![Image](gcp-ace-2.png "GCP Associate Cloud Engineer Google Certification -150 Demos")](https://stacksimplify.com/courses/gcp-associate-cloud-engineer/)
 
 ## [Course Details](https://stacksimplify.com/courses/gcp-associate-cloud-engineer/)
-- **Title:** [GCP Associate Cloud Engineer Google Certification -150 Demos](https://links.stacksimplify.com/gcp-associate-cloud-engineer-certification)
+- **Title:** [GCP Associate Cloud Engineer Google Certification -150 Demos](https://stacksimplify.com/courses/gcp-associate-cloud-engineer/)
 - **Sub Title:** Start your Google Cloud Journey with 150 practical demos. Google Cloud Associate Cloud Engineer certification - GCP ACE
 
-## [Course Modules](https://links.stacksimplify.com/https://links.stacksimplify.com/gcp-associate-cloud-engineer-google-certification)
+## [Course Modules](https://stacksimplify.com/courses/gcp-associate-cloud-engineer/)
 01. Compute Engine - 26 Demos
 02. Cloud Run and Cloud Functions - 5 Demos
 03. Virtual Private Cloud - 12 Demos
